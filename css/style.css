@@ -1,0 +1,50 @@
+/* HEADER */
+
+header {
+    height: 150px;
+    padding: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+header div {
+    border: 1px solid black;
+}
+
+header #logo {
+    width: 35%;
+    height: 100%;
+}
+
+header #menu_panel {
+    width: 65%;
+}
+
+header #info_panel {
+    height: 35%;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+header #nav_panel {
+    height: 65%;
+    border: none;
+}
+
+#nav {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#nav li {
+    width: 30%;
+    list-style-type: none;
+}
+
+#nav li a {
+    text-decoration: none;
+}
+
+#info_panel p {
+    width: 50%;
+}
