@@ -1,5 +1,3 @@
-let block = document.createElement('div');
-
 let goods = document.getElementById('goods_list');
 
 let content = {
@@ -16,6 +14,30 @@ let content = {
             title: 'example',
             img: 'https://via.placeholder.com/150'
         },
+{
+            title: 'example',
+            img: 'https://via.placeholder.com/150'
+        },
+{
+            title: 'example',
+            img: 'https://via.placeholder.com/150'
+        },
+{
+            title: 'example',
+            img: 'https://via.placeholder.com/150'
+        },
+{
+            title: 'example',
+            img: 'https://via.placeholder.com/150'
+        },
+{
+            title: 'example',
+            img: 'https://via.placeholder.com/150'
+        },
+{
+            title: 'example',
+            img: 'https://via.placeholder.com/150'
+        },
 
     ]
 };
@@ -23,6 +45,7 @@ let content = {
 
 
 content.infoblock.forEach(function (item){
+    let block = document.createElement('div');
     let image = document.createElement('img');
     image.setAttribute('src', item.img);
     block.appendChild(image);

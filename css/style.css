@@ -55,6 +55,9 @@ header #nav_panel {
     display: flex;
     flex-flow: row wrap;
 }
+#goods_list {
+    text-align: center;
+}
 
 .goods_item {
     width: 30%;
