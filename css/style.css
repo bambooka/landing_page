@@ -48,3 +48,17 @@ header #nav_panel {
 #info_panel p {
     width: 50%;
 }
+
+/* MAIN SECTION */
+
+#goods_list {
+    display: flex;
+    flex-flow: row wrap;
+}
+#goods_list {
+    text-align: center;
+}
+
+.goods_item {
+    width: 30%;
+}
